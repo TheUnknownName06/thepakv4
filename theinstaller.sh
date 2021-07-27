@@ -82,9 +82,8 @@ function thescript_thepak {
    echo "PLEASE WAIT WRITING A SCRIPT SETUP"
    spin & pid=$!
    sleep 2
-   cd $datf
-   mv etc/setup $tx
    cd $tx
+   mv etc/setup $tx
    sleep 2.9
    kill $pid
    rm -rf etc
